@@ -20,4 +20,4 @@ cache = redis.Redis(host='redis', port=6379)
 @app.route('/')
 def hello():
     # count = get_hit_count()
-    return 'Welcome to SCA Cloud School Application. '
+    return 'Welcome to SCA Cloud School Application, this is my First assessment. '
